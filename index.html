@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Зерно — свежий кофе по подписке</title>
+  <meta name="description" content="Свежеобжаренный кофе от локальных обжарщиков с доставкой раз в две недели.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">Зерно</a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#benefits">Преимущества</a>
+        <a href="#how">Как это работает</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#pricing">Тарифы</a>
+        <a href="#faq">Вопросы</a>
+      </nav>
+      <a href="#order" class="btn btn--small">Заказать</a>
+    </div>
+  </header>
+
+  <main>
+    
+    <section id="hero" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <h1>Кофе, обжаренный на прошлой неделе, а не в прошлом квартале</h1>
+          <p class="hero__lead">Привозим свежие зёрна от локальных обжарщиков раз в две недели. Вы говорите, как завариваете, — мы подбираем сорт и помол.</p>
+          <div class="hero__actions">
+            <a href="#order" class="btn">Получить первую пачку бесплатно</a>
+            <a href="#pricing" class="link-light">Смотреть тарифы</a>
+          </div>
+          <p class="hero__note">Пауза и отмена в любой момент, без звонков.</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="benefits" class="section">
+      <div class="container">
+        <h2>Почему наш кофе вкуснее магазинного</h2>
+        <ul class="benefits">
+          <li>
+            <h3>Свежая обжарка</h3>
+            <p>Дата обжарки напечатана на каждой пачке. Отправляем не позже чем через 5 дней после выгрузки.</p>
+          </li>
+          <li>
+            <h3>Подбор под вас</h3>
+            <p>Турка, воронка, гейзер или рожковая машина — помол и сорт подходят вашему способу заваривания.</p>
+          </li>
+          <li>
+            <h3>Прямые поставки</h3>
+            <p>Работаем с 12 фермами напрямую. Знаем, где и кем выращено каждое зерно, и пишем это на упаковке.</p>
+          </li>
+          <li>
+            <h3>Доставка бесплатно</h3>
+            <p>По всей России. Пауза, пропуск или отмена — в личном кабинете, за минуту.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    
+    <section id="reviews" class="section section--paper">
+      <div class="container">
+        <h2>Что говорят клиенты</h2>
+        <div class="reviews">
+          <blockquote class="review review--main">
+            <p>Раньше покупал кофе в супермаркете и не замечал, как он выдыхается. После первой пачки из «Зерна» вернуться назад уже не смог.</p>
+            <footer><b>Никита Кирюшкин</b>, Тольятти</footer>
+          </blockquote>
+          <blockquote class="review">
+            <p>В офисе нас 15 человек, и все ждут курьера. Удобно, что сорт можно поменять, если надоел один и тот же.</p>
+            <footer><b>Мария Соколова</b>, офис-менеджер, Казань</footer>
+          </blockquote>
+          <blockquote class="review">
+            <p>Для кофейни берём тариф «Команда». Качество стабильное, и за полгода не было ни одной жалобы от гостей.</p>
+            <footer><b>Игорь Петров</b>, владелец кофейни, Тверь</footer>
+          </blockquote>
+        </div>
+        <p class="clients__title">Нам доверяют</p>
+        <ul class="clients">
+          <li>Коворкинг «Точка»</li>
+          <li>Кафе «Сосна»</li>
+          <li>Студия «Орбита»</li>
+          <li>Банк «Север»</li>
+        </ul>
+      </div>
+    </section>
+
+    
+    <section id="how" class="section">
+      <div class="container how">
+        <div>
+          <h2>Что приходит в посылке</h2>
+          <p class="how__lead">На каждой пачке — паспорт партии: откуда зёрна, когда обжарены и как лучше заварить.</p>
+          
+          <div class="label" aria-label="Пример этикетки на пачке кофе">
+            <p class="label__brand">Зерно</p>
+            <h3>Эфиопия, Гуджи</h3>
+            <dl>
+              <div><span class="label__key">Обработка</span><span class="label__value">Промывная</span></div>
+              <div><span class="label__key">Обжарка</span><span class="label__value">12 ноября, светлая</span></div>
+              <div><span class="label__key">Заваривать</span><span class="label__value">Воронка, 92 °C</span></div>
+              <div><span class="label__key">Во вкусе</span><span class="label__value">Черника, жасмин, мёд</span></div>
+            </dl>
+            <p class="label__lot">Партия № 114 · 250 г</p>
+          </div>
+        </div>
+
+        <ol class="timeline">
+          <li>
+            <span class="timeline__day">День 1</span>
+            <h3>Вы заполняете анкету</h3>
+            <p>Четыре вопроса: способ заваривания, крепость, кислинка или горчинка, объём.</p>
+          </li>
+          <li>
+            <span class="timeline__day">День 2</span>
+            <h3>Обжарщик готовит партию</h3>
+            <p>Обжаривает под ваш заказ и фасует в пачку с клапаном для газа.</p>
+          </li>
+          <li>
+            <span class="timeline__day">День 4</span>
+            <h3>Курьер забирает посылку</h3>
+            <p>Вы получаете трек-номер в сообщении.</p>
+          </li>
+          <li>
+            <span class="timeline__day">День 6</span>
+            <h3>Кофе у вас дома</h3>
+            <p>Не понравился сорт — пришлём другой бесплатно.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    
+    <section class="stats" aria-label="Цифры о компании">
+      <div class="container">
+        <dl class="stats__list">
+          <div><span class="stats__label">подписчиков</span><span class="stats__value">12 000+</span></div>
+          <div><span class="stats__label">средняя оценка</span><span class="stats__value">4,9 из 5</span></div>
+          <div><span class="stats__label">ферм-партнёров</span><span class="stats__value">12</span></div>
+          <div><span class="stats__label">остаются после 6 месяцев</span><span class="stats__value">87%</span></div>
+        </dl>
+        <p class="stats__awards">Награда «Лучший кофейный сервис» на Coffee Fest, 2025. Сертификат Fairtrade.</p>
+      </div>
+    </section>
+
+    
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2>Тарифы без скрытых платежей</h2>
+        <p class="section__lead">Доставка включена в каждый тариф.</p>
+        <div class="table-wrap">
+          <table class="plans">
+            <thead>
+              <tr>
+                <th scope="col"><span class="visually-hidden">Условие</span></th>
+                <th scope="col">Старт</th>
+                <th scope="col" class="plans__pick">Любитель</th>
+                <th scope="col">Команда</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="plans__price">
+                <th scope="row">Цена в месяц</th>
+                <td>990 ₽</td>
+                <td class="plans__pick">1 790 ₽</td>
+                <td>4 900 ₽</td>
+              </tr>
+              <tr><th scope="row">Пачек в месяц</th><td>1 по 250 г</td><td class="plans__pick">2 по 250 г</td><td>4 по 1 кг</td></tr>
+              <tr><th scope="row">Доставка</th><td>Раз в месяц</td><td class="plans__pick">Раз в 2 недели</td><td>Раз в неделю</td></tr>
+              <tr><th scope="row">Редкие сорта</th><td>Нет</td><td class="plans__pick">Раз в месяц</td><td>Каждая доставка</td></tr>
+              <tr><th scope="row">Документы для юрлиц</th><td>Нет</td><td class="plans__pick">Нет</td><td>Да</td></tr>
+              <tr><th scope="row">Личный менеджер</th><td>Нет</td><td class="plans__pick">Нет</td><td>Да</td></tr>
+              <tr class="plans__buy">
+                <th scope="row"><span class="visually-hidden">Выбрать тариф</span></th>
+                <td><a href="#order" class="btn btn--outline">Выбрать</a></td>
+                <td class="plans__pick"><a href="#order" class="btn">Выбрать</a></td>
+                <td><a href="#order" class="btn btn--outline">Выбрать</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="plans__note">«Любитель» выбирают чаще всего.</p>
+      </div>
+    </section>
+
+    
+    <section id="order" class="cta">
+      <div class="container cta__inner">
+        <div>
+          <h2>Первая пачка бесплатно</h2>
+          <p>Оставьте контакты, и мы пришлём анкету. Платить начнёте только со второго месяца, если вам понравится.</p>
+        </div>
+        <form id="lead-form" class="form" novalidate>
+          <div class="field">
+            <label for="name">Имя</label>
+            <input id="name" name="name" type="text" required autocomplete="name" placeholder="Как к вам обращаться">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email" placeholder="name@example.com">
+          </div>
+          <div class="field">
+            <label for="phone">Телефон <span>(необязательно)</span></label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+7 900 000-00-00">
+          </div>
+          <p id="form-msg" class="form__msg" role="status"></p>
+          <button type="submit" class="btn btn--wide">Получить бесплатную пачку</button>
+          <p class="form__legal">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.</p>
+        </form>
+      </div>
+    </section>
+
+    
+    <section id="contacts" class="section">
+      <div class="container contacts">
+        <div>
+          <h2>Контакты</h2>
+          <address>
+            <p>ООО «Зерно», Москва, ул. Кофейная, 12</p>
+            <p>Телефон: <a>8 800 555-01-23</a></p>
+            <p>Email: <a>hello@zerno.example</a></p>
+            <p>Пн–Пт, 9:00–19:00 по Москве</p>
+          </address>
+        </div>
+        <div>
+          <h3>Мы в соцсетях</h3>
+          <ul class="socials">
+            <li><a href="#">Telegram</a></li>
+            <li><a href="#">ВКонтакте</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="faq" class="section section--paper">
+      <div class="container faq">
+        <h2>Частые вопросы</h2>
+        <details>
+          <summary>Как отменить подписку?</summary>
+          <p>В личном кабинете нажмите Отменить подписку.</p>
+        </details>
+        <details>
+          <summary>Что, если кофе не понравится?</summary>
+          <p>Напишите нам, и мы бесплатно пришлём другой сорт. Деньги можно вернуть в течение 14 дней.</p>
+        </details>
+        <details>
+          <summary>Сколько идёт доставка?</summary>
+          <p>По Москве и Тольятти 1–2 дня, по остальной России 3–7 дней.</p>
+        </details>
+        <details>
+          <summary>Можно ли получать зёрна, а не молотый кофе?</summary>
+          <p>Да. Выберите в зёрнах в анкете, и мы пришлём цельные зёрна.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <p class="logo">Зерно</p>
+        <p>2026 ООО «Зерно». ИНН 0000000000</p>
+      </div>
+      <nav aria-label="Ссылки в футере">
+        <a href="#benefits">Преимущества</a>
+        <a href="#pricing">Тарифы</a>
+        <a href="#faq">Вопросы</a>
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Пользовательское соглашение</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
